@@ -1,0 +1,84 @@
+body{
+    width: 1000px;
+    text-align: left;
+}
+
+#wrap{
+    width: 760px;
+    height: 880px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 240px;
+    border-color:goldenrod;
+    border-width: 1px;
+    border-style:solid;
+
+}
+
+#header{
+    height: 120px;
+    background-image: url(img/header.jpg);    
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+    background-attachment: fixed;
+    
+    text-align: right;    
+    color:rgb(255, 255, 255);    
+    letter-spacing:15px;    
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#topnav{
+    height: 25px;
+    background-image: url(img/topnav_bg.gif);
+    background-repeat: repeat-x;
+    margin-top: -15px;
+}
+
+#topnav ul li{
+    float: left;
+    padding-right: 40px;
+    list-style: none;;
+}
+
+#main{
+    height: 700px;
+    padding: 0px 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(67, 94, 216);
+}
+
+#news{
+    background-color: rgb(193, 212, 247);
+    height: 380px;
+    width: 210px;
+    float:right;
+    padding:0px 3px;
+    margin-top: 10px;
+}
+#news h1{
+    font-size: 17px;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+#news p{
+    font-size: 13px;
+    padding: 5px;
+}
+#asd{
+    float:left;
+    padding: 5px;
+}
+
+#footer{
+    height: 30px;
+    border-color:goldenrod;  
+    border-width: 1px;
+    border-style:solid;
+}
